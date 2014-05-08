@@ -1,0 +1,56 @@
+html {
+    font-family: tahoma, arial, verdana, sans-serif, 'Lucida Sans';
+    font-size: 11px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border-radius: 5px;
+}
+
+#search {
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+/* ========================== */
+
+.users {
+    height: 300px;
+    width: 300px;
+    overflow-y: auto;
+    padding-left: 0px;
+}
+
+.users img {
+    width: 32px;
+    height: 32px;
+}
+
+.users li {
+    display: block;
+    clear: both;
+    height: 32px;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+.users li:hover {
+    background: #F1F5F9;
+    border: solid 1px #E1E7ED;
+}
+
+.users b {
+    float: left
+}
+
+.users div {
+    padding-left: 34px;
+    padding-top: 8px;
+}
